@@ -1,2 +1,7 @@
+.idea
+pentago
+cmake-build-debug
+CMakeLists.txt
+.vscode
 pentago.o
 pentago.exe
