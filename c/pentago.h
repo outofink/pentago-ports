@@ -6,13 +6,6 @@
 #define MIN_LETTER (int)'A'
 #define MIN_NUMBER (int)'1'
 
-typedef enum pieces
-{
-  WHITE = 'W',
-  BLACK = 'B',
-  EMPTY = ' '
-} pieces_t;
-
 typedef struct
 {
   char board[4][9];
@@ -24,6 +17,13 @@ typedef enum direction
   CW = '\'',
   CCW = '\"'
 } direction_t;
+
+typedef enum pieces
+{
+  WHITE = 'W',
+  BLACK = 'B',
+  EMPTY = ' '
+} pieces_t;
 
 typedef enum winner
 {
