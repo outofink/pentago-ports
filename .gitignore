@@ -5,3 +5,4 @@ CMakeLists.txt
 .vscode
 pentago.o
 pentago.exe
+target
